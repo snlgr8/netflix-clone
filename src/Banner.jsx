@@ -17,11 +17,6 @@ const Banner = () => {
     fetchData();
   }, []);
 
-  function truncate(str, n) {
-    console.log(str);
-    return str.length > n ? str.substr(0, n - 1) + '&hellip;' : str;
-  }
-
   return (
     <header
       className='banner'
